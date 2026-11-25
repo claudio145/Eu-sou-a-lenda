@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://dcw6kmq0dvkl2"]
+
+[node name="Control" type="Control" unique_id=1561887962]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1176598153]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.31764707, 0.42745098, 0.27058825, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=617462829]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=86054622]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1357375731]
+layout_mode = 2
+theme_override_colors/font_color = Color(18.892157, 18.892157, 18.892157, 1)
+theme_override_font_sizes/font_size = 48
+text = "Eu sou a lenda"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1447543215]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "sobreviva se puder"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="CenterContainer/VBoxContainer" unique_id=2123407439]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "COMECE"
